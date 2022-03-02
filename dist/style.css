@@ -43,7 +43,7 @@ body {
 .information-div{
     margin-top: 1rem;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 .degree{
     color: white;
@@ -63,7 +63,7 @@ body {
     display: flex;
     border-left: 2px solid rgba(167, 162, 162, 0.7);
     height: 60%;
-    width: 30%;
+    width: 60%;
     margin-top: 5%;
     padding-left: 40px;
     justify-content: center;
@@ -97,6 +97,24 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
-
+.search-button{
+    border: none;
+    background-color: rgba(255, 255, 255,0.03);
+    cursor: pointer;
+}
+.error-msg{
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 

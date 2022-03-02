@@ -12,9 +12,15 @@
     <div class = "content" id = "content">
         
        
-        <div class = "search-class" id = "search-class">
-            <img src="images/search-3-24.ico" alt="">
-            <input id = "search-city" class = "search-city" type="text" placeholder="Search city">
+        <div class = "search-error">
+            <div class = "search-class" id = "search-class">
+                <button class = "search-button" id = "search-button">
+                    <img src="images/search-3-24.ico" alt="">
+                </button>
+                <input id = "search-city" class = "search-city" type="text" placeholder="Search city">
+            </div>
+            <div class = "error-msg" id = "error-msg">
+</div>
         </div>
        
 
@@ -26,15 +32,11 @@
 
             <div class = "information-div" id = "information-div">
                 <div class = "degree" id = "degree">
-                    69
-                    <div class = "celcius-image">
-                        °C
-                    </div>
                 </div>
                 <div class = "info-class" id = "info-class">
-                    <div>FEELS LIKE: 70°C</div>
-                    <div>WIND: 5 MPH</div>
-                    <div>HUMIDITY: 69%</div>
+                    <div id = "feels-like"></div>
+                    <div id = "wind"></div>
+                    <div id = "humidity"></div>
                 </div>
             </div>
         </div>
