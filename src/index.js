@@ -18,6 +18,13 @@ searchButton.addEventListener('click', () => {
     findCity(city);
 })
 
+searchCity.addEventListener('keypress', (e) => {
+    if(e.key == "Enter"){
+        let city = searchCity.value;
+        findCity(city);
+    }
+})
+
 function twoDecimal(number){
     return Math.round((number + Number.EPSILON) * 100) / 100;
     
@@ -55,13 +62,3 @@ async function findCity(city) {
         errorMessage.textContent = `No location found for ${city}`
     }
 }
-/*fetch(apiUrl, { mode: 'cors' })
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (response) {
-        console.log(response);
-    })
-    .catch(function(err){
-        console.log(err);
-    })*/
