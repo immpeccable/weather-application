@@ -1,0 +1,102 @@
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  margin: 0;
+}
+.content{
+    background-image: url(images/phil-botha-a0TJ3hy-UD8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    padding-top: 13%;
+}
+.city-weather{
+    width: auto;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+}
+.weather-identifier{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.city-name{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+.information-div{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.degree{
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+.celcius-image{
+    font-size: 40px;
+    position: relative;
+    top: -3rem;
+}
+.info-class{
+    display: flex;
+    border-left: 2px solid rgba(167, 162, 162, 0.7);
+    height: 60%;
+    width: 30%;
+    margin-top: 5%;
+    padding-left: 40px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    flex-direction: column;
+    gap: 10px;
+}
+.search-city{
+    width: 300px;
+    background-color: rgba(255, 255, 255,0.03);
+    border: none;
+    outline: none;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.search-class{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    gap: 10px;
+}
+::placeholder{
+    color: rgb(53, 51, 51);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
